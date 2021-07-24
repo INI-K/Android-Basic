@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
     class CustomAdapter extends PagerAdapter {
 
         @Override
-        //뷰 페이저를 통해서 보여줄 항목의 갯수
-        public int getCount() {
+        //뷰 페이저를 통해서 보여줄 항목의 갯수수
+       public int getCount() {
             return viewList.size();
         }
 
