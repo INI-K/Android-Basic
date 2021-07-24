@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         ListListener listListener = new ListListener();
         listView.setOnItemClickListener(listListener);
     }
-    
+
     //리스트뷰의 항목을 터치하면 반응하는 리스너
     class ListListener implements AdapterView.OnItemClickListener{
         @Override
